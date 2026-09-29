@@ -1,3 +1,47 @@
+(? . . . nên viết bài học khoảng cách giữa các từ trong văn bản thông thường (tiêu đề tạm thời để vậy) trước khi viết bài học này) 
+
+Nếu ta nhấn phím **spcae** tạo khoảng cách các chữ cái thông thường trong từ if:
+
+```latex
+\documentclass[article]
+
+\begin{document}
+
+I   f
+
+\end{document}
+```
+
+Kết quả cho ra được sẽ là: 
+
+I  f
+
+So với việc viết văn bản thông thường, khi ta nhấn phím **space** giữa biến x và y trong biểu thức $xy$ như đoạn mã sau 
+
+```latex
+\documentclass[article]
+
+\begin{document}
+
+\(x    y\)
+
+\[
+x    y
+\]
+
+\end{document}
+```
+
+$x    y$
+
+$$
+x   y 
+$$
+
+
+Kết quả cho ra được là biến x và y đều luôn tạo thành biểu thức $xy$. 
+
+
 Khi người dùng viết toán học,  . . . (nêu vấn đề)
 
 Để điều chỉnh khoảng cách giữa các biểu thức, toán tử . . . người dùng chỉ cần thêm lệnh ở bảng sau đây 
