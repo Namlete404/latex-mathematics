@@ -60,7 +60,7 @@ hoặc lệnh
 ```
 
 > [!WARNING]  
->  Nếu như người dùng để nội dung bên trong dấu ngoặc nhọn `{}` của lệnh `\ref`, cũng như là lệnh `\eqref` khác với nội dung bên trong dấu ngoặc nhọn của lệnh `\label`, thì hệ thống sẽ báo lỗi `Undefined reference`. Lúc này, ở trong trang tài liệu, đoạn văn có lệnh`\ref` (hoặc lệnh `\eqref`) sẽ xuất hiện hai lần dấu chấm hỏi `??` thay vì được hiện thị số thứ tự tương ứng với lệnh `\label` của phần toán học cần được trỏ đến. 
+> Nếu như người dùng viết nội dung bên trong dấu ngoặc nhọn `{}` của lệnh `\ref`, cũng như là lệnh `\eqref` mà không trùng với nội dung bên trong dấu ngoặc nhọn của lệnh `\label` nào bên trong phần soạn thảo LaTeX, thì hệ thống sẽ báo lỗi `Undefined reference`. Lúc này, ở trong trang tài liệu, đoạn văn có lệnh`\ref` (hoặc lệnh `\eqref`) thay vì được hiện thị số thứ tự tương ứng với lệnh `\label` của phần toán học cần được trỏ đến, thì sẽ xuất hiện hai lần dấu chấm hỏi `??`, 
 
 ```latex
 \documentclass{article}
@@ -140,7 +140,7 @@ Vậy nên, nội dung bên trong dấu ngoặc nhọn của lệnh `\label` và
 \end{document}
 ```
 
- Vậy nên, nội dung bên trong dấu ngoặc nhọn của mỗi lệnh `\label` là phải khác nhau nhằm phân biệt các phương trình toán học.  
+ Vậy nên, nội dung bên trong dấu ngoặc nhọn của mỗi lệnh `\label` là phải khác nhau nhằm phân biệt số thứ tự của các phương trình toán học.  
 
 ```latex
 \documentclass{article}
